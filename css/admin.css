@@ -1,0 +1,89 @@
+#add_bank{
+	display:none;
+	margin:90px auto;
+	border:1px solid black;
+	border-radius:10px;
+	width:50%;
+	padding:20px;
+}
+
+#view_bank{
+	display:none;
+}
+
+#view_bank_tbl{
+	margin:30px auto;
+	width:80%;
+	overflow:scroll;
+}
+
+#add_bank input{
+	border:1px solid black;
+	border-radius:5px;
+	padding-left:5px;
+	height:30px;
+	background-color:#d5eaff;
+}
+
+#add_bank label{
+	color:black;
+	font-weight:bold;
+} 
+
+#lft{
+	padding-top:7%;
+	padding-left:4%;
+	border-right:1px solid orange;
+	height:540px;
+	cursor:pointer;
+}
+
+#lft button{
+	font-family: 'Orbitron', sans-serif;
+	font-size:14px;
+	color:white;
+	border:1px solid #0A79DF;
+	border-radius:5px;
+	background-color:#0A79DF;
+	height:30px;
+	width:130px;
+}
+
+#menu{
+	background-color:rgba(0,0,0,0.9);
+	border-bottom:1px solid orange;
+}
+
+#admin_logo_text{
+	color:orange;
+	margin-left:3%;
+	font-weight:bold;
+}
+
+.admin_nav{
+	color:white;
+	letter-spacing:1px;
+	margin-right:7px;
+}
+
+.admin_nav:hover{
+	background-color:orange;
+	font-weight:bold;
+}
+
+#footer{
+	border-top:1px solid orange;
+	background-color:rgba(0,0,0,0.9);;
+}
+
+#save_btn{
+	font-family: 'Orbitron', sans-serif;
+	width:100px;
+	height:30px;
+	background-color:orange;
+	border:1px solid orange;
+	border-radius:5px;
+	color:white;
+	margin-left:40%;
+}
+

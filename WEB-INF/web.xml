@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+  <servlet>
+	<servlet-name>app01</servlet-name>
+	<servlet-class>controllers.SignUpPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app01</servlet-name>
+	<url-pattern>/signuppage.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app02</servlet-name>
+	<servlet-class>controllers.SignUpServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app02</servlet-name>
+	<url-pattern>/signup.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app03</servlet-name>
+	<servlet-class>controllers.HomeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app03</servlet-name>
+	<url-pattern>/index.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app04</servlet-name>
+	<servlet-class>controllers.SignInServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app04</servlet-name>
+	<url-pattern>/signin.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app05</servlet-name>
+	<servlet-class>controllers.AdminPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app05</servlet-name>
+	<url-pattern>/admin.do</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+	<servlet-name>app06</servlet-name>
+	<servlet-class>controllers.AddUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app06</servlet-name>
+	<url-pattern>/adduser.do</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+	<servlet-name>app07</servlet-name>
+	<servlet-class>controllers.Image2Servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app07</servlet-name>
+	<url-pattern>/image2.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app08</servlet-name>
+	<servlet-class>controllers.SaveUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app08</servlet-name>
+	<url-pattern>/saveuser.do</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+	<servlet-name>app09</servlet-name>
+	<servlet-class>controllers.SaveServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app09</servlet-name>
+	<url-pattern>/save.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app10</servlet-name>
+	<servlet-class>controllers.ActivateAccountServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app10</servlet-name>
+	<url-pattern>/activate.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app11</servlet-name>
+	<servlet-class>controllers.ShowAllUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app11</servlet-name>
+	<url-pattern>/alluser.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app12</servlet-name>
+	<servlet-class>controllers.ShowProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app12</servlet-name>
+	<url-pattern>/profile.do</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+	<servlet-name>app13</servlet-name>
+	<servlet-class>controllers.ImageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app13</servlet-name>
+	<url-pattern>/image.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app14</servlet-name>
+	<servlet-class>controllers.UserScreenServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app14</servlet-name>
+	<url-pattern>/userScreen.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app15</servlet-name>
+	<servlet-class>controllers.DepositPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app15</servlet-name>
+	<url-pattern>/depositpage.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app16</servlet-name>
+	<servlet-class>controllers.DepositServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app16</servlet-name>
+	<url-pattern>/deposit.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app17</servlet-name>
+	<servlet-class>controllers.WithDrawlPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app17</servlet-name>
+	<url-pattern>/withdrawlpage.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app18</servlet-name>
+	<servlet-class>controllers.SendOTPServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app18</servlet-name>
+	<url-pattern>/sendotp.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app19</servlet-name>
+	<servlet-class>controllers.VerifyOTPServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app19</servlet-name>
+	<url-pattern>/verify.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app20</servlet-name>
+	<servlet-class>controllers.WithDrawlServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app20</servlet-name>
+	<url-pattern>/withdrawl.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app21</servlet-name>
+	<servlet-class>controllers.CheckBalancePageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app21</servlet-name>
+	<url-pattern>/checkbalance.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app22</servlet-name>
+	<servlet-class>controllers.TransferPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app22</servlet-name>
+	<url-pattern>/transferpage.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app23</servlet-name>
+	<servlet-class>controllers.SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app23</servlet-name>
+	<url-pattern>/search.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app24</servlet-name>
+	<servlet-class>controllers.TransferMoneyServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app24</servlet-name>
+	<url-pattern>/transfermoney.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app25</servlet-name>
+	<servlet-class>controllers.HistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app25</servlet-name>
+	<url-pattern>/history.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app26</servlet-name>
+	<servlet-class>controllers.TransactionHistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app26</servlet-name>
+	<url-pattern>/transaction.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app27</servlet-name>
+	<servlet-class>controllers.DeleteUserPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app27</servlet-name>
+	<url-pattern>/deleteuserpage.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app28</servlet-name>
+	<servlet-class>controllers.DeleteUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app28</servlet-name>
+	<url-pattern>/deleteuser.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app29</servlet-name>
+	<servlet-class>controllers.PasswordValidateServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app29</servlet-name>
+	<url-pattern>/validate.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app30</servlet-name>
+	<servlet-class>controllers.ChatBoxPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app30</servlet-name>
+	<url-pattern>/chatboxpage.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app31</servlet-name>
+	<servlet-class>controllers.ChatSaveServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app31</servlet-name>
+	<url-pattern>/chatsave.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app32</servlet-name>
+	<servlet-class>controllers.ForgetPasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app32</servlet-name>
+	<url-pattern>/forget.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app33</servlet-name>
+	<servlet-class>controllers.ResetPasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app33</servlet-name>
+	<url-pattern>/resetpass.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app34</servlet-name>
+	<servlet-class>controllers.CodeVerifiedServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app34</servlet-name>
+	<url-pattern>/verifycode.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app35</servlet-name>
+	<servlet-class>controllers.ChangePasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app35</servlet-name>
+	<url-pattern>/changepassword.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app36</servlet-name>
+	<servlet-class>controllers.GetIFSCCodeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app36</servlet-name>
+	<url-pattern>/getIFSCCode.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app37</servlet-name>
+	<servlet-class>controllers.SaveBankServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app37</servlet-name>
+	<url-pattern>/saveBank.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app38</servlet-name>
+	<servlet-class>controllers.GetBankDetailsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app38</servlet-name>
+	<url-pattern>/getBankDetails.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app39</servlet-name>
+	<servlet-class>controllers.GetHistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app39</servlet-name>
+	<url-pattern>/getHistory.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app40</servlet-name>
+	<servlet-class>controllers.SigninPageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app40</servlet-name>
+	<url-pattern>/signinpage.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app41</servlet-name>
+	<servlet-class>controllers.CaptchaGenerateServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app41</servlet-name>
+	<url-pattern>/captchagenerate.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>app42</servlet-name>
+	<servlet-class>controllers.ValidateCaptchaServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>app42</servlet-name>
+	<url-pattern>/validatecaptcha.do</url-pattern>
+  </servlet-mapping>
+
+  
+
+	
+
+	
+  <listener>
+	<listener-class>listeners.BankIFSCCodeListener</listener-class>
+  </listener>
+
+  <listener>
+	<listener-class>listeners.UserListener</listener-class>
+  </listener>
+
+
+</web-app>

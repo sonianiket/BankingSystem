@@ -1,0 +1,51 @@
+
+#form_container{
+	margin-top:5px;
+}
+
+#smt_btn{
+	margin-bottom:40px;
+}
+
+#smt_btn button{
+	font-family: 'Orbitron', sans-serif;
+	height:40px;
+	width:150px;
+}
+
+#fille{
+	font-family: 'Orbitron', sans-serif;
+}
+
+#btn{
+	margin-bottom:60px;
+	padding:8px 30px;
+	color:white;
+	background-color:#0A79DF;
+	border:1px solid #0A79DF;
+	border-radius:5px;
+	margin-left:10px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#conf_spn{
+	color:red;
+	font-size:11px;
+}
+
+#info{
+	color:green;
+	font-size:9px;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+
+#info_spn{
+	color:red;
+	font-size:11px;
+}
+
+#mob_spn{
+	color:red;
+	font-size:11px;
+}

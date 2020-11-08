@@ -1,0 +1,81 @@
+
+.container{
+	border:1px solid #7CEC9F;
+	border-radius:10px;
+	background-color:#7CEC9F;
+	height:515px;
+	margin-top:3%;
+	overflow-y:auto;
+	box-shadow:1px 3px 20px 0px white;
+}
+
+.row{
+	border:1px solid #218F76;
+	border-radius:10px;
+	background-color:#218F76;
+	height:80px;
+}
+
+#logo{
+	color:white;
+	margin-top:9px;
+	margin-left:70%;
+}
+
+.b1_left{
+	width:47%;
+	margin-left:20px;
+}
+
+.b1_left textarea{
+	font-family: 'Orbitron', sans-serif;
+	background-color:#EAF0F1;
+	border:1px solid #EAF0F1;
+	border-radius:10px;
+	padding-left:5px;
+	padding-right:5px;
+	letter-spacing:1px;
+}
+
+.b2_right{
+	width:47%;
+	margin-left:51%;
+}
+
+.b2_right textarea{
+	font-family: 'Orbitron', sans-serif;
+	background-color:white;
+	border:1px solid white;
+	border-radius:10px;
+	padding-left:5px;
+	padding-right:5px;
+	letter-spacing:1px;
+}
+
+#main_box{
+	margin-left:17%;
+	width:50%;
+	position:relative;
+}
+
+#main_box textarea{
+	border:1px solid white;
+	border-radius:10px;
+	background-color:white;
+}
+
+#foot{
+	position:fixed;
+	bottom:70px;
+	background-color:#7CEC9F;
+	width:936px;
+}
+
+.btn{
+	position:absolute;
+	border-radius:10px;
+	left:102%;
+	bottom:30%;
+	width:100px;
+	height:40px;
+}

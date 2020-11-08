@@ -1,0 +1,29 @@
+
+#wlcm{
+	color:blue;
+	margin-right:2%;
+}
+
+#wlcm span{
+	color:green;
+	font-size:22px;
+	margin-left:5px;
+}
+
+.container{
+	margin-top:5%;
+	width:100%;
+}
+
+.btn{
+	height:100px;
+	width:300px;
+	margin-top:10%;
+	font-family: 'Orbitron', sans-serif;
+	background-color:orange;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:white;
+	border:1px solid black;
+	border-radius:5px;
+}

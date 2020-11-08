@@ -1,0 +1,13 @@
+.container table{
+	margin-top:10px;
+}
+
+.name{
+	border:1px solid white;
+	border-radius:5px;
+	padding:15px 100px;
+}
+
+.name:hover{
+	background-color:green;
+}

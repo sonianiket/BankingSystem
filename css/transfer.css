@@ -1,0 +1,31 @@
+.container{
+	margin-top:10%;
+	position:relative;
+}
+
+#search_div{
+	height:100px;
+	border-radius:5px;
+	overflow:auto;
+	visibility:hidden;
+}
+
+.row input{
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing:1px;
+}
+
+.btn{
+	font-family: 'Orbitron', sans-serif;
+	background-color:orange;
+	height:70px;
+	width:200px;
+	border:1px solid white;
+	border-radius:5px;
+	letter-spacing:1px;
+}
+
+.spn_div{
+	color:black;
+	cursor:pointer;
+}
